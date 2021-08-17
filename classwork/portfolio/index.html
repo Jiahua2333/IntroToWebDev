@@ -7,6 +7,12 @@
 <html lang = "en">
 <head>
     <title>Jiahua Liao Portfolio</title>
+    <link rel="stylesheet" href="./styles/teststyles.css" type="text/css">
+    <style>
+        header {
+            background-color: darkgray;
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -15,18 +21,17 @@
         </header>
 
         
-        <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-        <nav>
-            <hr />
-            <!-- <p><a href="">Home</a></p> -->
+        <!-- The nav element will include navigation buttons or links -->
+        <nav class="border">
+            <hr style="border: thin dotted red;"/>
             <p><a href="./projects.html">Projects</a></p>
             <p><a href="./contact.html">Contact Me</a></p>
             <p><a href="./testimonials.html">Testimonials</a></p>
-            <hr />
+            <hr style="width: 50%; border: 2px solid blueviolet;" />
         </nav>
         
         <section>
-            <article id="about-me">
+            <article id="about-me" class="border">
                 <h2><em>About Me</em></h2>
                 <a href="./contact.html">
                     <img src="./images/child-817373_640.jpg" style="width: 420px;" alt="Portrait of Jiahua Liao">
@@ -105,7 +110,7 @@
             </article>       
         </section>
 
-        <footer>
+        <footer style="background-color : fuchsia">
             <hr />
             <p>&copy; 2021 Jiahua Liao. All rights reserved</p>
         </footer>
